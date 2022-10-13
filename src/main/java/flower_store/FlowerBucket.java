@@ -11,8 +11,8 @@ public class FlowerBucket {
 
     public int getPrice() {
         int total = 0;
-        for (int i = 0; i<packs.size(); i++) {
-            total += packs.get(i).getPrice();
+        for (FlowerPack pack : packs) {
+            total += pack.getPrice();
         }
         return total;
     }
