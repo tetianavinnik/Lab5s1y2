@@ -1,4 +1,4 @@
-package flower_store;
+package flowerstore;
 
-public class Tulip extends Flower{
+public class Tulip extends Flower {
 }
